@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Política de Privacidade – FisioDesk</title>
+<style>
+  :root {
+    --bg: #f5f5f5; --card: #ffffff; --text: #1c1c1c; --muted: #5f6368;
+    --accent: #2e7d32; --border: #e0e0e0;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121212; --card: #1e1e1e; --text: #ececec; --muted: #a0a4a8;
+      --accent: #66bb6a; --border: #333333; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121212; --card: #1e1e1e; --text: #ececec; --muted: #a0a4a8;
+    --accent: #66bb6a; --border: #333333; color-scheme: dark;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { margin-bottom: 20px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--accent); }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0; }
+  section {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 18px; margin: 14px 0;
+  }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  p { margin: 8px 0; }
+  ul { margin: 8px 0; padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { color: var(--muted); font-size: .85rem; text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Política de Privacidade</h1>
+    <p class="meta">Aplicativo FisioDesk · Última atualização: 11 de novembro de 2026</p>
+  </header>
+
+  <section>
+    <h2>1. Sobre esta política</h2>
+    <p>O FisioDesk é um aplicativo de apoio à criação e ao acompanhamento de projetos tecnológicos em Fisioterapia e reabilitação, desenvolvido no contexto do PPG Doutorado Ensino em Saúde na Amazônia (UEPA). Esta política explica quais dados pessoais o aplicativo trata, para quê, com quem são compartilhados e como você pode exercer seus direitos, conforme a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
+    <p>Ao criar uma conta e usar o aplicativo, você declara ter lido esta política.</p>
+  </section>
+
+  <section>
+    <h2>2. Dados que coletamos</h2>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Dado</th><th>Quando</th><th>Finalidade</th></tr>
+        <tr><td>Nome, e-mail, telefone</td><td>No cadastro e na edição do perfil</td><td>Criar e identificar sua conta</td></tr>
+        <tr><td>Senha</td><td>No cadastro e no login</td><td>Autenticação. É tratada pelo Firebase Authentication; não temos acesso a ela em texto legível</td></tr>
+        <tr><td>Foto de perfil (opcional)</td><td>Quando você escolhe uma imagem da galeria</td><td>Exibir seu perfil</td></tr>
+        <tr><td>Projetos e etapas</td><td>Ao criar ou editar</td><td>Nome, categoria, descrição, prazo, status, comentários e links que você informar</td></tr>
+        <tr><td>Equipe</td><td>Ao adicionar membros</td><td>Nome, e-mail, telefone e foto de pessoas que você cadastra, para indicá-las como responsáveis</td></tr>
+        <tr><td>Dados técnicos</td><td>Durante o uso</td><td>Informações como endereço IP e tipo de dispositivo, tratadas pelos serviços do Google/Firebase para o funcionamento e a segurança do serviço</td></tr>
+      </table>
+    </div>
+    <p>O aplicativo <strong>não</strong> usa publicidade, não vende dados e não inclui ferramentas de rastreamento para fins de marketing.</p>
+  </section>
+
+  <section>
+    <h2>3. Como usamos seus dados</h2>
+    <ul>
+      <li>Criar e manter sua conta e permitir o login;</li>
+      <li>Armazenar e exibir seus projetos, etapas e equipe;</li>
+      <li>Permitir a recuperação de senha por e-mail;</li>
+      <li>Manter a segurança e o bom funcionamento do aplicativo.</li>
+    </ul>
+    <p>As bases legais são a execução do serviço que você solicitou ao criar a conta e, para a foto de perfil e demais informações opcionais, o seu consentimento, que pode ser retirado a qualquer momento.</p>
+  </section>
+
+  <section>
+    <h2>4. Com quem compartilhamos</h2>
+    <ul>
+      <li><strong>Google Firebase</strong> (Authentication, Realtime Database e Storage): operador que hospeda e processa os dados para o funcionamento do aplicativo. Veja a <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">política de privacidade do Firebase</a>;</li>
+      <li><strong>Outros usuários do aplicativo</strong>: ao escolher o responsável por um projeto ou etapa, nome, e-mail e foto de perfil de usuários cadastrados podem ser exibidos na lista de seleção;</li>
+      <li><strong>Autoridades</strong>, quando houver obrigação legal.</li>
+    </ul>
+    <p>Links externos abertos pelo aplicativo (artigos, Google Drive, sites de patentes) são de terceiros e têm políticas próprias.</p>
+  </section>
+
+  <section>
+    <h2>5. Permissões do dispositivo</h2>
+    <ul>
+      <li><strong>Fotos / galeria:</strong> usada somente quando você escolhe uma imagem para o perfil ou para um membro da equipe. O aplicativo não acessa outras fotos;</li>
+      <li><strong>Internet:</strong> necessária para login, sincronização e carregamento dos dados.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Armazenamento, segurança e transferência internacional</h2>
+    <p>Os dados ficam em servidores do Google (Firebase), que podem estar localizados fora do Brasil, inclusive nos Estados Unidos. Essa transferência ocorre para a prestação do serviço, com as salvaguardas oferecidas pelo provedor. A comunicação com o servidor usa conexão criptografada. Nenhum sistema é totalmente imune a falhas, mas adotamos medidas razoáveis para proteger seus dados.</p>
+  </section>
+
+  <section>
+    <h2>7. Retenção e exclusão da conta</h2>
+    <p>Mantemos seus dados enquanto sua conta existir. Você pode excluí-la a qualquer momento no próprio aplicativo: <strong>Perfil → Excluir conta</strong>. A exclusão é permanente e apaga:</p>
+    <ul>
+      <li>seu perfil e sua foto;</li>
+      <li>seus projetos e as etapas desses projetos;</li>
+      <li>as etapas criadas por você;</li>
+      <li>sua equipe cadastrada e as respectivas fotos;</li>
+      <li>seu login no Firebase Authentication.</li>
+    </ul>
+    <p>Registros que pertençam a outros usuários (por exemplo, uma etapa criada por outra pessoa na qual você foi indicado como responsável) não são alterados. Cópias técnicas de segurança do provedor podem levar um período adicional para serem removidas.</p>
+  </section>
+
+  <section>
+    <h2>8. Seus direitos (LGPD)</h2>
+    <p>Você pode, a qualquer momento, solicitar: confirmação de que tratamos seus dados; acesso; correção de dados incompletos ou desatualizados; anonimização, bloqueio ou eliminação de dados desnecessários; portabilidade; informação sobre compartilhamentos; e revogação do consentimento. Parte disso você faz direto no aplicativo (editar perfil e excluir conta). Para o restante, use o contato abaixo.</p>
+  </section>
+
+  <section>
+    <h2>9. Dados de terceiros que você cadastra</h2>
+    <p>Ao adicionar membros à sua equipe, você informa dados de outras pessoas (nome, e-mail, telefone e foto). Cadastre apenas pessoas que concordem com isso. Quem for cadastrado pode pedir a correção ou a exclusão desses dados pelo contato abaixo.</p>
+  </section>
+
+  <section>
+    <h2>10. Crianças e adolescentes</h2>
+    <p>O FisioDesk é voltado a estudantes, docentes e pesquisadores e não é destinado a menores de 18 anos. Se identificarmos dados de um menor sem a devida autorização, eles serão excluídos.</p>
+  </section>
+
+  <section>
+    <h2>11. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política. A data da última atualização fica no topo desta página, e mudanças relevantes serão comunicadas no aplicativo.</p>
+  </section>
+
+  <section>
+    <h2>12. Contato</h2>
+    <p><strong>Responsável pelo tratamento dos dados:</strong> Júlio Cesar da Rocha Alves<br>
+    <strong>E-mail:</strong> <a href="mailto:rocha_alvesjc@hotmail.com">rocha_alvesjc@hotmail.com</a></p>
+  </section>
+
+  <footer>© 2024–2026 FisioDesk</footer>
+</main>
+</body>
+</html>

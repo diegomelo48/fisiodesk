@@ -1,0 +1,56 @@
+name: fisiodesk
+description: FisioDesk - migrado de Android (Java/XML + Firebase) para Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase (equivalente ao google-services.json / Firebase BoM do Android)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_database: ^11.1.4
+  firebase_storage: ^12.3.4
+
+  # Imagens (equivalente ao Glide)
+  cached_network_image: ^3.4.1
+
+  # Selecionar foto de perfil/equipe (equivalente ao ActivityResultContracts + galeria)
+  image_picker: ^1.1.2
+
+  # Abrir links (autoLink="web", painel tecnológico, email/telefone da equipe)
+  url_launcher: ^6.2.5
+
+  # Visualizador de PDF (equivalente ao com.github.barteksc.pdfviewer.PDFView)
+  syncfusion_flutter_pdfviewer: ^35.1.37
+
+  # Formatação de datas dd/MM/yyyy (equivalente ao SimpleDateFormat)
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/pdf/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon_1024.png"
+  remove_alpha_ios: true
+  background_color_ios: "#FFFFFF"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
